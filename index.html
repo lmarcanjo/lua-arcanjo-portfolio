@@ -3,97 +3,183 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Luã Arcanjo - Senior QA Automation Engineer focused on Playwright, API Testing, BDD, CI/CD and AI-powered Quality Engineering." />
+  <meta name="description" content="Luã Arcanjo - Senior QA Automation Engineer focused on AI QA, Quality Engineering, Playwright, API Testing, BDD and CI/CD." />
   <title>Luã Arcanjo | Senior QA Automation Engineer</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header class="site-header">
-    <a class="logo" href="#">Luã Arcanjo</a>
+  <div class="background-grid"></div>
+  <header class="navbar">
+    <a href="#" class="brand">Luã Arcanjo</a>
     <nav>
       <a href="#about">About</a>
+      <a href="#why">Why me</a>
       <a href="#projects">Projects</a>
-      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
       <a href="#contact">Contact</a>
     </nav>
   </header>
 
   <main>
     <section class="hero">
-      <div class="hero-copy">
-        <span class="badge">Senior QA Automation Engineer • AI QA • Quality Engineering</span>
-        <h1>Building smarter quality strategies with automation and AI.</h1>
-        <p>QA professional with 10+ years of experience and 6+ years in test automation, focused on Playwright, Cypress, API Testing, BDD, CI/CD and AI-powered Quality Engineering.</p>
+      <div>
+        <span class="pill">Open to remote opportunities</span>
+        <h1>Senior QA Automation Engineer building quality strategies with AI.</h1>
+        <p class="lead">
+          10+ years in Software Quality Assurance and 6+ years in Test Automation.
+          Specialized in Playwright, API Testing, BDD, CI/CD and Artificial Intelligence applied to Quality Engineering.
+        </p>
         <div class="actions">
-          <a class="button primary" href="#projects">View projects</a>
-          <a class="button secondary" href="https://github.com/lmarcanjo" target="_blank" rel="noreferrer">GitHub</a>
-          <a class="button secondary" href="https://www.linkedin.com/in/lua-arcanjo" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a class="btn primary" href="#projects">View projects</a>
+          <a class="btn secondary" href="resume.pdf" target="_blank">Download resume</a>
+          <a class="btn ghost" href="#contact">Contact me</a>
+        </div>
+        <div class="chips">
+          <span>Playwright</span><span>Cypress</span><span>API Testing</span><span>BDD</span><span>CI/CD</span><span>AI QA</span>
         </div>
       </div>
-      <div class="hero-card">
-        <div class="terminal-bar"><span></span><span></span><span></span></div>
-        <pre><code>quality.pipeline({
-  automation: ["Playwright", "Cypress"],
-  api: ["Postman", "Newman"],
-  strategy: ["BDD", "Shift-Left"],
-  ai: ["LLMs", "AI Agents"],
-  goal: "delivery confidence"
-});</code></pre>
-      </div>
+      <aside class="code-card">
+        <div class="dots"><span></span><span></span><span></span></div>
+        <pre><code>{
+  "qaExperience": "10+ years",
+  "automation": "6+ years",
+  "focus": ["AI QA", "Test Automation", "API Quality"],
+  "mission": "Improve software quality with strategy, automation and AI"
+}</code></pre>
+      </aside>
     </section>
 
-    <section class="metrics">
+    <section class="stats">
       <article><strong>10+</strong><span>Years in QA</span></article>
-      <article><strong>6+</strong><span>Years in automation</span></article>
-      <article><strong>AI QA</strong><span>Applied projects</span></article>
-      <article><strong>CI/CD</strong><span>Quality pipelines</span></article>
+      <article><strong>6+</strong><span>Years in Automation</span></article>
+      <article><strong>AI QA</strong><span>Practical Projects</span></article>
+      <article><strong>CI/CD</strong><span>Quality Pipelines</span></article>
     </section>
 
     <section id="about" class="section split">
-      <div><span class="section-kicker">About me</span><h2>Quality professional focused on practical impact.</h2></div>
-      <div class="section-text"><p>I work across the software quality lifecycle, from requirements analysis and test strategy to automated regression, API validation and continuous testing.</p><p>Beyond traditional QA, I build tools that use Artificial Intelligence to reduce repetitive activities and help teams focus on risk analysis, product quality and delivery confidence.</p></div>
+      <div>
+        <span class="section-label">About me</span>
+        <h2>Quality professional focused on impact, automation and delivery confidence.</h2>
+      </div>
+      <div class="copy">
+        <p>I am a Quality Assurance professional with experience across mobile software validation, web applications, APIs and enterprise systems.</p>
+        <p>I work from requirements analysis and test strategy to automated regression, API validation and continuous quality pipelines. I also build AI-powered tools to reduce repetitive tasks and help teams focus on risk analysis and product quality.</p>
+      </div>
+    </section>
+
+    <section id="why" class="section">
+      <span class="section-label">Why work with me?</span>
+      <h2>A QA profile that combines experience, automation and AI.</h2>
+      <div class="grid four">
+        <article><span class="num">01</span><h3>Strong QA background</h3><p>10+ years working with software quality, testing processes and product validation.</p></article>
+        <article><span class="num">02</span><h3>Automation mindset</h3><p>6+ years building and maintaining automation for web applications, APIs and regression flows.</p></article>
+        <article><span class="num">03</span><h3>Leadership experience</h3><p>Experience coordinating validation activities and supporting QA professionals in delivery cycles.</p></article>
+        <article><span class="num">04</span><h3>AI-powered QA</h3><p>Practical projects using AI to generate QA artifacts, scenarios, documentation and automation assets.</p></article>
+      </div>
     </section>
 
     <section id="projects" class="section">
-      <span class="section-kicker">Featured projects</span>
-      <h2>QA Automation + AI QA portfolio.</h2>
-      <article class="featured-project">
+      <span class="section-label">Featured projects</span>
+      <h2>Projects that demonstrate QA Automation + AI QA.</h2>
+
+      <article class="featured">
         <div>
-          <span class="project-label">Main project</span>
+          <span class="project-badge">Main project</span>
           <h3>Astra-QA</h3>
           <p class="subtitle">AI-Powered Quality Engineering Platform</p>
           <p>Astra-QA is designed to accelerate QA artifact creation by transforming requirements into BDD scenarios, test plans, automation assets, API collections and performance test ideas.</p>
-          <ul><li>AI-assisted QA artifact generation</li><li>BDD scenarios and test planning</li><li>Playwright, API and performance testing support</li><li>Built to increase QA productivity without removing human review</li></ul>
-          <div class="project-actions"><a href="https://github.com/lmarcanjo/Asta-QA" target="_blank" rel="noreferrer">View repository</a></div>
+          <ul>
+            <li>AI-assisted QA artifact generation</li>
+            <li>BDD scenarios, test plans and automation support</li>
+            <li>Playwright, API and performance testing assets</li>
+            <li>Productivity without removing human review</li>
+          </ul>
+          <a class="repo" href="https://github.com/lmarcanjo/Asta-QA" target="_blank">View repository</a>
         </div>
-        <div class="project-preview"><div class="preview-card"><span>Input</span><p>User story / requirement</p></div><div class="arrow">→</div><div class="preview-card strong"><span>AI QA Engine</span><p>BDD • Test Plan • Playwright • API</p></div></div>
+        <div class="flow">
+          <div><small>Input</small><strong>Requirement</strong></div>
+          <span></span>
+          <div class="active"><small>AI QA Engine</small><strong>BDD • Test Plan • Automation</strong></div>
+          <span></span>
+          <div><small>Output</small><strong>QA Artifacts</strong></div>
+        </div>
       </article>
-      <div class="project-grid">
-        <article class="project-card"><h3>QA Automation Suite</h3><p class="subtitle">Modern Test Automation Framework</p><p>Complete automation suite demonstrating E2E testing, API validation, performance testing and CI/CD execution using a professional QA architecture.</p><div class="tags"><span>Playwright</span><span>TypeScript</span><span>Newman</span><span>K6</span><span>GitHub Actions</span></div><a href="https://github.com/lmarcanjo/qa-automation-suite" target="_blank" rel="noreferrer">View repository</a></article>
-        <article class="project-card"><h3>Baymax AI QA Assistant</h3><p class="subtitle">AI Assistant for Quality Engineers</p><p>Assistant focused on supporting QA activities such as requirement analysis, test scenario generation, documentation and diagram creation.</p><div class="tags"><span>AI</span><span>QA</span><span>Requirements</span><span>Documentation</span></div><a href="https://github.com/lmarcanjo/Baymax-Ai-Qa-Assistant" target="_blank" rel="noreferrer">View repository</a></article>
-        <article class="project-card"><h3>Quest do Saber</h3><p class="subtitle">Gamified Learning Platform</p><p>Educational project that demonstrates product thinking, frontend development, gamification and AI-assisted learning experiences.</p><div class="tags"><span>React</span><span>TypeScript</span><span>Gamification</span><span>AI</span></div><a href="https://github.com/lmarcanjo/Quest-do-saber" target="_blank" rel="noreferrer">View repository</a></article>
+
+      <div class="grid three">
+        <article class="card">
+          <h3>QA Automation Suite</h3>
+          <p class="subtitle">Modern Test Automation Framework</p>
+          <p>Professional automation suite demonstrating E2E testing, API validation, performance testing, reports and CI/CD execution.</p>
+          <div class="chips mini"><span>Playwright</span><span>TypeScript</span><span>Newman</span><span>K6</span><span>GitHub Actions</span></div>
+          <a href="https://github.com/lmarcanjo/qa-automation-suite" target="_blank">View repository</a>
+        </article>
+        <article class="card">
+          <h3>Baymax AI QA Assistant</h3>
+          <p class="subtitle">AI Assistant for Quality Engineers</p>
+          <p>Assistant designed to support requirement analysis, test scenario generation, QA documentation and diagram creation.</p>
+          <div class="chips mini"><span>AI</span><span>QA</span><span>Requirements</span><span>Documentation</span></div>
+          <a href="https://github.com/lmarcanjo/Baymax-Ai-Qa-Assistant" target="_blank">View repository</a>
+        </article>
+        <article class="card">
+          <h3>Quest do Saber</h3>
+          <p class="subtitle">Gamified Learning Platform</p>
+          <p>Educational product that demonstrates product thinking, frontend development, gamification and AI-assisted learning.</p>
+          <div class="chips mini"><span>React</span><span>TypeScript</span><span>Gamification</span><span>AI</span></div>
+          <a href="https://github.com/lmarcanjo/Quest-do-saber" target="_blank">View repository</a>
+        </article>
       </div>
     </section>
 
     <section id="skills" class="section">
-      <span class="section-kicker">Technical skills</span><h2>Core stack and expertise.</h2>
-      <div class="skills-grid">
-        <div class="skill-card"><h3>Automation</h3><p>Playwright, Cypress, Selenium, E2E Testing, Regression Testing</p></div>
-        <div class="skill-card"><h3>API Testing</h3><p>REST APIs, Postman, Newman, Contract Validation, Integration Testing</p></div>
-        <div class="skill-card"><h3>Languages</h3><p>TypeScript, JavaScript, SQL</p></div>
-        <div class="skill-card"><h3>Quality Engineering</h3><p>BDD, Cucumber, Gherkin, Shift-Left Testing, Test Strategy</p></div>
-        <div class="skill-card"><h3>DevOps</h3><p>GitHub Actions, Jenkins, CI/CD, Git, GitHub</p></div>
-        <div class="skill-card"><h3>Artificial Intelligence</h3><p>LLMs, Prompt Engineering, AI Agents, AI-assisted QA workflows</p></div>
+      <span class="section-label">Technical skills</span>
+      <h2>Core stack and expertise.</h2>
+      <div class="grid three">
+        <article><h3>Automation</h3><p>Playwright, Cypress, Selenium, E2E Testing, Regression Testing</p></article>
+        <article><h3>API Testing</h3><p>REST APIs, Postman, Newman, Contract Validation, Integration Testing</p></article>
+        <article><h3>Languages</h3><p>TypeScript, JavaScript, SQL</p></article>
+        <article><h3>Quality Engineering</h3><p>BDD, Cucumber, Gherkin, Shift-Left Testing, Test Strategy</p></article>
+        <article><h3>DevOps</h3><p>GitHub Actions, Jenkins, CI/CD, Git, GitHub</p></article>
+        <article><h3>Artificial Intelligence</h3><p>LLMs, Prompt Engineering, AI Agents, AI-assisted QA workflows</p></article>
       </div>
     </section>
 
-    <section class="section case-study"><span class="section-kicker">Case study</span><h2>Astra-QA: AI applied to Quality Engineering.</h2><div class="case-grid"><div><h3>Problem</h3><p>QA teams often spend too much time creating repetitive artifacts such as test cases, BDD scenarios, test plans and automation drafts.</p></div><div><h3>Solution</h3><p>Astra-QA uses AI to support QA artifact generation, helping professionals move faster while keeping human review and quality strategy at the center.</p></div><div><h3>Impact</h3><p>The project demonstrates how AI can improve QA productivity and allow teams to focus more on risk analysis, product quality and delivery confidence.</p></div></div></section>
+    <section id="experience" class="section split">
+      <div>
+        <span class="section-label">Professional highlights</span>
+        <h2>Experience across mobile, web, API and enterprise quality.</h2>
+      </div>
+      <div class="timeline">
+        <article><span>2021 – 2026</span><h3>QA Engineer • Reclame Aqui</h3><p>Worked in agile squads with web and API automation, BDD scenarios, regression testing, requirements validation, Shift-Left practices and AI-driven workflow improvements.</p></article>
+        <article><span>2015 – 2021</span><h3>QA Analyst / Acting QA Lead • Brisa</h3><p>Coordinated testing activities and mobile software validation for LG device updates, supporting functional, exploratory and regression testing cycles.</p></article>
+        <article><span>Projects</span><h3>AI QA and Automation Builder</h3><p>Built projects focused on AI-assisted QA artifact generation, Playwright automation, API validation and Quality Engineering productivity.</p></article>
+      </div>
+    </section>
 
-    <section id="contact" class="section contact"><span class="section-kicker">Contact</span><h2>Open to QA Automation, Quality Engineering, SDET and AI QA opportunities.</h2><div class="contact-links"><a href="mailto:lmarcanjo16@gmail.com">Email</a><a href="https://github.com/lmarcanjo" target="_blank" rel="noreferrer">GitHub</a><a href="https://www.linkedin.com/in/lua-arcanjo" target="_blank" rel="noreferrer">LinkedIn</a></div></section>
+    <section class="section case">
+      <span class="section-label">Featured case study</span>
+      <h2>Astra-QA: AI applied to Quality Engineering.</h2>
+      <div class="grid three">
+        <article><h3>Problem</h3><p>QA teams often spend too much time creating repetitive artifacts such as test cases, BDD scenarios, test plans and automation drafts.</p></article>
+        <article><h3>Solution</h3><p>Astra-QA uses AI to support QA artifact generation, helping professionals move faster while keeping human review and test strategy at the center.</p></article>
+        <article><h3>Impact</h3><p>The project demonstrates how AI can increase QA productivity and allow teams to focus on risk analysis, delivery confidence and product quality.</p></article>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <span class="section-label">Contact</span>
+      <h2>Open to QA Automation, Quality Engineering, SDET and AI QA opportunities.</h2>
+      <p>Let’s connect and talk about software quality, automation and AI-powered QA.</p>
+      <div class="contact-links">
+        <a href="mailto:lmarcanjo16@gmail.com">Email</a>
+        <a href="https://github.com/lmarcanjo" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/lua-arcanjo" target="_blank">LinkedIn</a>
+      </div>
+    </section>
   </main>
-  <footer><p>© 2026 Luã Arcanjo. Built for QA Automation and AI QA opportunities.</p></footer>
+
+  <footer>© 2026 Luã Arcanjo. Built for QA Automation and AI QA opportunities.</footer>
 </body>
 </html>

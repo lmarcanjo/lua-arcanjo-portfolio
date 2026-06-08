@@ -2,19 +2,6 @@
 
 Professional portfolio focused on QA Automation, AI QA and Quality Engineering opportunities.
 
-## Live page
+Live: https://lmarcanjo.github.io/lua-arcanjo-portfolio/
 
-https://lmarcanjo.github.io/lua-arcanjo-portfolio/
-
-## Featured projects
-
-- Astra-QA — AI-powered Quality Engineering platform
-- QA Automation Suite — Playwright, API, Performance and CI/CD automation framework
-- Baymax AI QA Assistant — AI assistant for QA activities
-- Quest do Saber — Gamified learning platform powered by AI
-
-## Tech stack
-
-- HTML
-- CSS
-- GitHub Pages
+Featured projects: Astra-QA, QA Automation Suite, Baymax AI QA Assistant and Quest do Saber.
